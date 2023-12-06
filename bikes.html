@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Project /bikes.css">
+    
+    <title>BIKESHOP</title>
+</head>
+<body>
+    <div class="container">
+        <nav id="menu">
+            <ul>
+                <li class="BIKESHOP"><a href="">BIKESHOP</a></li>
+                <li><a href="">HOME</a></li>
+                <li><a href="">BIKES</a></li>
+                <li><a href="">ABOUT</a></li>
+            </ul>
+        </nav>
+    </div>
+    <input type="text" id="searchInput" placeholder="Bike Search">
+    <button onclick="deleteRow(this)">Удалить</button>
+
+<div class="container">
+    <div class="table-box"></div>
+        <table id="myTable">
+            <thead>
+                 <tr>
+                    <th>ID</th>
+                    <th>TITLE</th>
+                    <th>DESCRIPTION</th>
+                    <th>PRICE</th>
+                    <th>Action Buttons</th>
+                    </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Иван</td>
+                    <td>Иванов</td>
+                    <td>25</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Петр</td>
+                    <td>Петров</td>
+                    <td>30</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+</body>
+<script src="../Project /bikes.js"></script>
+</html>
